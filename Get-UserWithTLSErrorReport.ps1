@@ -47,7 +47,7 @@
 #---------------------------------------------------------[Script Parameters]------------------------------------------------------
 Param (
     [string] $TenantId = "", # Add tenant ID from Azure Active Directory page on portal.
-    [int16] $Hours = 1, # Will filter the log for $agoHours from the current date and time.
+    [int16] $Hours = 48, # Will filter the log for $agoHours from the current date and time.
     [string] $ReportPath = "./",  # The path to the local filesystem for export of the CSV file.
     $errorCode = 1002016 #Error code for track de error, by default 1002016 error Code related with TLS deprecation
 )
